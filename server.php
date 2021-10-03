@@ -1,7 +1,6 @@
 <?php
 
-use ChatApp\WebSocket\WebSocket;
-require_once('Websocket.php');
+require 'vendor/autoload.php';
+use Juststudies\ChatPhp\WebSocket;
 
-echo "Servidor subiu!";
 $ws = new WebSocket("127.0.0.1", "8080");

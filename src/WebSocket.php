@@ -1,9 +1,6 @@
 <?php
 
-namespace ChatApp\Websocket;
-
-error_reporting(E_ALL);
-set_time_limit(0);
+namespace Juststudies\ChatPhp;
 
 class WebSocket {
     const LOG_PATH = '/tmp/';
