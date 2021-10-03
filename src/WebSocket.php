@@ -2,6 +2,9 @@
 
 namespace Juststudies\ChatPhp;
 
+error_reporting(E_ALL);
+set_time_limit(0);
+
 class WebSocket {
     const LOG_PATH = '/tmp/';
     const LISTEN_SOCKET_NUM = 9;
